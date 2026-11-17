@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#173d32" />
+  <title>Әкеге — жүректен шыққан сый</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="grain"></div>
+  <header class="topbar">
+    <a class="brand" href="#top">ӘКЕГЕ <span>♥</span></a>
+    <button class="music-toggle" id="musicToggle" aria-label="Музыканы қосу">
+      <span class="music-icon">♫</span><span id="musicLabel">Музыканы қосу</span>
+    </button>
+  </header>
+
+  <main id="top">
+    <section class="hero section-pad">
+      <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+      <p class="eyebrow reveal">БҮГІН — ЕРЕКШЕ КҮН</p>
+      <h1 class="reveal delay-1">Әке,<br><em>туған күніңізбен!</em></h1>
+      <div class="gold-line reveal delay-2"></div>
+      <p class="hero-copy reveal delay-2">Сізге деген алғысымызды бір күнмен айтып жеткізу мүмкін емес.<br>Бұл — жүректен шыққан кішкентай сыйымыз.</p>
+      <a class="scroll-link reveal delay-3" href="#memories">Төмен қарай <span>↓</span></a>
+      <div class="hero-number">01 <span>—</span> 03</div>
+    </section>
+
+    <section class="memories section-pad" id="memories">
+      <div class="section-heading reveal">
+        <p class="eyebrow">БІЗДІҢ ЕҢ ҚЫМБАТ ЕСТЕЛІКТЕРІМІЗ</p>
+        <h2>Бәрі де <em>отбасынан</em> басталады.</h2>
+        <p>Ең бағалы сәттер — бірге өткізген сәттер.</p>
+      </div>
+      <div class="photo-grid">
+        <figure class="photo-card photo-large reveal">
+          <img src="photos/photo1.jpeg" alt="Отбасылық естелік 1" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid'">
+          <div class="photo-placeholder"><span>01</span><b>Бірінші естелік</b><small>photos/photo1.jpg</small></div>
+        </figure>
+        <figure class="photo-card reveal delay-1">
+          <img src="photos/photo2.jpeg" alt="Отбасылық естелік 2" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid'">
+          <div class="photo-placeholder"><span>02</span><b>Екінші естелік</b><small>photos/photo2.jpg</small></div>
+        </figure>
+        <figure class="photo-card reveal delay-2">
+          <img src="photos/photo3.jpeg" alt="Отбасылық естелік 3" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid'">
+          <div class="photo-placeholder"><span>03</span><b>Үшінші естелік</b><small>photos/photo3.jpg</small></div>
+        </figure>
+        <figure class="photo-card reveal delay-1">
+          <img src="photos/photo4.jpeg" alt="Отбасылық естелік 4" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid'">
+          <div class="photo-placeholder"><span>04</span><b>Төртінші естелік</b><small>photos/photo4.jpg</small></div>
+        </figure>
+        <figure class="photo-card reveal delay-2">
+          <img src="photos/photo5.jpeg" alt="Отбасылық естелік 5" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid'">
+          <div class="photo-placeholder"><span>05</span><b>Бесінші естелік</b><small>photos/photo5.jpg</small></div>
+        </figure>
+      </div>
+      <p class="memory-note reveal">Уақыт өтсе де, осындай сәттер жүректе сақталады.</p>
+    </section>
+
+    <section class="message-section section-pad">
+      <div class="message-card reveal">
+        <div class="quote-mark">“</div>
+        <p class="eyebrow">ЖҮРЕКТЕН ШЫҚҚАН СӨЗ</p>
+        <h2>Әке, біз үшін<br><em>Сіздің орныңыз бөлек.</em></h2>
+        <p class="message-text">Сіздің еңбегіңіз, ақылыңыз бен әрдайым көрсеткен қолдауыңыз — біз үшін баға жетпес байлық. Әрқашан аман болып, ортамызда күліп жүріңіз. Біз үшін Сіздің барыңыздың өзі — үлкен бақыт!</p>
+        <div class="signature-line"></div>
+        <p class="signature">Сізді жақсы көретін екі ұлыңыздан</p>
+      </div>
+    </section>
+
+    <section class="gift-section section-pad" id="gift">
+      <p class="eyebrow reveal">СІЗГЕ АРНАЛҒАН СЫЙЛЫҒЫМЫЗ</p>
+      <h2 class="reveal delay-1">Ал енді кішкентай <em>сыйымызды</em> ашыңыз.</h2>
+      <p class="gift-intro reveal delay-2">Бұл сыйлық — Сізге деген құрметіміз бен алғысымыздың белгісі.</p>
+      <button class="envelope-button reveal delay-2" id="openGift" aria-label="Сыйлықты ашу">
+        <span class="envelope-glow"></span>
+        <span class="envelope">
+          <span class="envelope-back"></span>
+          <span class="letter"><span>ӘКЕГЕ</span><b>♥</b></span>
+          <span class="envelope-flap"></span>
+          <span class="envelope-front"></span>
+          <span class="wax-seal">♥</span>
+        </span>
+        <span class="open-hint">Ашу үшін басыңыз</span>
+      </button>
+    </section>
+
+    <section class="certificate-wrap" id="certificate" aria-hidden="true">
+      <div class="certificate reveal">
+        <div class="cert-inner">
+          <p class="cert-kicker">АРДАҚТЫ ӘКЕМІЗГЕ</p>
+          <div class="cert-ornament">✦</div>
+          <h2>Әлемдегі ең жақсы<br><em>әкеге!</em></h2>
+          <p class="cert-copy">Сіздің еңбегіңіз бен қамқорлығыңыз үшін алғысымыз шексіз.<br>Әрдайым аман болып, ортамызда күліп жүріңіз!</p>
+          <p class="cert-label">СЫЙЛЫҚ СЕРТИФИКАТЫ</p>
+          <div class="amount">40 000 <span>₸</span></div>
+          <div class="cert-bottom">
+            <span>Бар махаббатымыз бен құрметімізбен</span>
+            <strong>Әкеңіздің екі ұлынан ♥</strong>
+          </div>
+        </div>
+      </div>
+      <button class="close-cert" id="closeGift">Жабу ↑</button>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-heart">♥</div>
+    <p>Әке, әрқашан аман болыңыз!</p>
+    <small>Махаббатпен, екі ұлыңыздан</small>
+  </footer>
+<audio id="bgMusic" loop preload="auto">
+    <source src="music/ake.mp3" type="audio/mpeg">
+</audio>
+  <script src="script.js"></script>
+</body>
+</html>
